@@ -1,5 +1,5 @@
 provider "google" {
-  credentials =file("/Users/judika.gultom/infra-tf/main/service-non-prod.json")
+  credentials = ${credential}
   project     = "spid-non-prod"
   region      = "asia-southeast1"
 }
